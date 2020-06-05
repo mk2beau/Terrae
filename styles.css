@@ -1,28 +1,54 @@
 body {
-
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     text-align: center;
 }
 
-.wrapper {
+/* Parent main wrap */
+.main-wrap {
     max-width: 1300px;
     background-color: #FFF;
-    margin: 40px;
+    margin: -10px;
     line-height: 1.65;
-    padding: 20px 50px;
     display: flex;
 }
 
+/* Children of main wrap */
 .main-content {
     flex: 3;
+    order: 2;
 }
 
 .left-sidebar {
+    margin: 20px;
     flex: 1;
+    order: 1;
 }
 
 .right-sidebar {
+    margin: 20px;
     flex: 1;
+    order: 3;
+}
+
+/* Parent feature wrap */
+.feature-wrap {
+    max-width: 1400px;
+    margin: 40px auto 0 auto;
+}
+
+/* Children of feature wrap */
+.feature {
+    margin: 10px;
+}
+
+
+
+/* photo wrapper */
+.photo-container {
+    margin: 10px;
+    padding: 50px;
 }
