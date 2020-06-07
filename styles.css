@@ -1,3 +1,8 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
 h1 {
     text-align: center;
 }
@@ -12,12 +17,11 @@ h1 {
 
 /* Child of navigation bar */
 .navbar {
-    border-style: solid;
+    background-color: #295388;
     padding: 20px;
     box-sizing: border-box;
     margin-bottom: 20px;
     flex-basis: 33%;
-
 }
 
 nav.navbar {
@@ -39,6 +43,17 @@ nav.navbar {
     color: #fff;
     font-size: 50px;
     margin: auto;
+}
+
+.center-header img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    nmax-height: 100%;
 }
 
 /* Parent main wrap */
